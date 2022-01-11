@@ -43,7 +43,7 @@
     foreach(getget() as $key=>$value)
     {
          $text= "$key: $value\r\n";
-         $file = './data/'.'mc-'.date("Y-m-d").'.txt';
+         $file = './data/'.'somename-'.date("Y-m-d").'.txt';
          $fp = fopen($file, 'a+');
          fwrite($fp, $text);
          fclose($fp);
