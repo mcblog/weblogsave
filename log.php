@@ -34,27 +34,27 @@
     }
     foreach (getallheaders() as $name => $value) 
     {
-    $text= "$name: $value\r\n";
-    $file = './data/'.'somename-'.date("Y-m-d").'.txt';
-    $fp = fopen($file, 'a+');
-    fwrite($fp, $text);
-    fclose($fp);
+         $text= "$name: $value\r\n";
+         $file = './data/'.'somename-'.date("Y-m-d").'.txt';
+         $fp = fopen($file, 'a+');
+         fwrite($fp, $text);
+         fclose($fp);
     }
     foreach(getget() as $key=>$value)
     {
-    $text= "$key: $value\r\n";
-    $file = './data/'.'mc-'.date("Y-m-d").'.txt';
-    $fp = fopen($file, 'a+');
-    fwrite($fp, $text);
-    fclose($fp);
+         $text= "$key: $value\r\n";
+         $file = './data/'.'mc-'.date("Y-m-d").'.txt';
+         $fp = fopen($file, 'a+');
+         fwrite($fp, $text);
+         fclose($fp);
     }
     foreach(postpost() as $key=>$value)
     {
-    $text= "$key: $value\r\n";
-    $file = './data/'.'mc-'.date("Y-m-d").'.txt';
-    $fp = fopen($file, 'a+');
-    fwrite($fp, $text);
-    fclose($fp);
+         $text= "$key: $value\r\n";
+         $file = './data/'.'mc-'.date("Y-m-d").'.txt';
+         $fp = fopen($file, 'a+');
+         fwrite($fp, $text);
+         fclose($fp);
     }
     $file = './data/'.'mc-'.date("Y-m-d").'.txt';
     $fp = fopen($file, 'a+');
